@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: #222;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.navbar {
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d4d8b;
+}
+
+nav {
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #222;
+  font-weight: 600;
+}
+.hero {
+  height: 85vh;
+  background-image: url('src/assets/imgs/arriere-plan.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  align-items: center;
+}
+
+.hero-content {
+  color: white;
+}
+
+.hero h1 {
+  font-size: 56px;
+  max-width: 700px;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 14px 30px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: #0d4d8b;
+  color: white;
+}
+
+.btn-secondary {
+  background: white;
+  color: #0d4d8b;
+}
+.services-preview {
+  padding: 80px 0;
+}
+
+.services-preview h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 42px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.service-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.service-card h3 {
+  padding: 20px 20px 10px;
+  font-size: 24px;
+}
+
+.service-card p {
+  padding: 0 20px 25px;
+}
+
+.cta {
+  background: #0d4d8b;
+  color: white;
+  padding: 80px 0;
+  text-align: center;
+}
+.cta h2 {
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+
+.page {
+  padding: 100px 0;
+}
+
+.page h1 {
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background: #0d4d8b;
+  color: white;
+  border: none;
+  padding: 16px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.footer {
+  background: #111;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+.scroll-indicator {
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 38px;
+  font-weight: bold;
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  10%,
+  20%,
+  50%,
+  40%,
+  100% {
+    transform: translateX(-50%) translateY(0);
+  }
+
+  40% {
+    transform: translateX(-50%) translateY(-12px);
+  }
+
+  60% {
+    transform: translateX(-50%) translateY(-6px);
+  }
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 38px;
+  }
+
+  nav {
+    gap: 15px;
+    font-size: 14px;
+  }
+
+  .cta h2 {
+    font-size: 30px;
+  }
+}
+.google-map-section {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.google-map-section iframe {
+  display: block;
+}
+.contact-banner {
+  background: #6aa4de;
+  color: white;
+  padding: 60px 0;
+}
+
+.contact-banner-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  text-align: center;
+}
+
+.contact-item h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact-item p {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.barre {
+  margin-top: 10px;
+}
