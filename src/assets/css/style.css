@@ -48,7 +48,7 @@ nav a {
 }
 .hero {
   height: 85vh;
-  background-image: url('/images/arriere-plan.webp');
+  background-image: url('../imags/arriere-plan.webp');
   background-size: cover;
   background-position: center;
 }

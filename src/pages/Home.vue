@@ -2,6 +2,10 @@
 import Hero from '../components/Hero.vue'
 import ServiceCard from '../components/ServiceCard.vue'
 import CTA from '../components/CTA.vue'
+
+import plomberieImg from '../assets/imags/ecs.webp'
+import chauffageImg from '../assets/imags/thermo.webp'
+import depannageImg from '../assets/imags/depannage.webp'
 </script>
 
 <template>
@@ -15,18 +19,19 @@ import CTA from '../components/CTA.vue'
         <ServiceCard
           title="Plomberie"
           description="Installation et dépannage plomberie"
-          image="images/ecs.webp"
+          :image="plomberieImg"
         />
 
         <ServiceCard
           title="Chauffage"
           description="Installation de chauffage moderne"
-          image="images/thermo.webp"
+          :image="chauffageImg"
         />
+
         <ServiceCard
           title="Dépannage"
           description="Intervention rapide 7j/7"
-          image="images/depannage.webp"
+          :image="depannageImg"
         />
       </div>
     </section>

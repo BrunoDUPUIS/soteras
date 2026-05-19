@@ -1,5 +1,8 @@
 <script setup>
 import ServiceCard from '../components/ServiceCard.vue'
+import SalleDeBainImg from '../assets/imags/sbd.webp'
+import RechercheDeFuiteImg from '../assets/imags/recherche-de-fuite.webp'
+import PompesAChaleurImg from '../assets/imags/pac.webp'
 </script>
 
 <template>
@@ -10,19 +13,19 @@ import ServiceCard from '../components/ServiceCard.vue'
       <ServiceCard
         title="Salle de bain"
         description="Création et rénovation complète"
-        image="images/sbd.webp"
+        :image="SalleDeBainImg"
       />
 
       <ServiceCard
         title="Recherche de fuite"
         description="Détection et réparation rapide"
-        image="images/recherche-de-fuite.webp"
+        :image="RechercheDeFuiteImg"
       />
 
       <ServiceCard
         title="Pompe à chaleur"
         description="Solutions économiques et performantes"
-        image="images/pac.webp"
+        :image="PompesAChaleurImg"
       />
     </div>
   </section>
