@@ -15,18 +15,18 @@ import CTA from '../components/CTA.vue'
         <ServiceCard
           title="Plomberie"
           description="Installation et dépannage plomberie"
-          image="public/images/ecs.webp"
+          image="/images/ecs.webp"
         />
 
         <ServiceCard
           title="Chauffage"
           description="Installation de chauffage moderne"
-          image="public/images/thermo.webp"
+          image="/images/thermo.webp"
         />
         <ServiceCard
           title="Dépannage"
           description="Intervention rapide 7j/7"
-          image="public/images/depannage.webp"
+          image="images/depannage.webp"
         />
       </div>
     </section>
