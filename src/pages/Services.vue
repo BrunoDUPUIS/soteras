@@ -10,19 +10,19 @@ import ServiceCard from '../components/ServiceCard.vue'
       <ServiceCard
         title="Salle de bain"
         description="Création et rénovation complète"
-        image="src/assets/imgs/sbd.jpeg"
+        image="public/images/sbd.jpeg"
       />
 
       <ServiceCard
         title="Recherche de fuite"
         description="Détection et réparation rapide"
-        image="src/assets/imgs/recherche-de-fuite.jpeg"
+        image="public/images/recherche-de-fuite.jpeg"
       />
 
       <ServiceCard
         title="Pompe à chaleur"
         description="Solutions économiques et performantes"
-        image="src/assets/imgs/pac.jpeg"
+        image="public/images/pac.jpeg"
       />
     </div>
   </section>
