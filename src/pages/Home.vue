@@ -12,11 +12,7 @@ import CTA from '../components/CTA.vue'
       <h2>Nos services</h2>
 
       <div class="services-grid">
-        <ServiceCard
-          title="Plomberie"
-          description="Installation et dépannage plomberie"
-          image="./images/ecs.webp"
-        />
+        <img src="/images/pac.webp" />
 
         <ServiceCard
           title="Chauffage"
