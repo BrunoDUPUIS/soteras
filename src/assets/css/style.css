@@ -224,6 +224,10 @@ nav a {
   .cta h2 {
     font-size: 30px;
   }
+  .footer {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 .google-map-section {
   width: 100%;
@@ -232,7 +236,7 @@ nav a {
 }
 
 .google-map-section iframe {
-  border-radius: 20px;
+  border-radius: 25px;
 }
 .contact-banner {
   background: #6aa4de;
