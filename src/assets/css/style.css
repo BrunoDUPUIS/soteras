@@ -215,7 +215,10 @@ nav a {
 
   nav {
     gap: 15px;
-    font-size: 14px;
+    font-size: 10px;
+  }
+  .logo {
+    font-size: 20px;
   }
 
   .cta h2 {
